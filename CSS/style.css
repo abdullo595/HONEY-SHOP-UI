@@ -582,10 +582,11 @@ body {
 
 .honey__new {
   position: absolute;
-  width: 39.81px;
+  width: 45px;
   height: 19px;
   margin-left: 778.14px;
   margin-top: 21px;
+  border: 0;
   background-color: #C74817;
 }
 
@@ -639,7 +640,7 @@ body {
   margin-top: 7px;
   width: 14.18px;
   height: 12.34px;
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 
 .jar__pic:hover {
@@ -827,6 +828,7 @@ body {
 .makers__pic {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  cursor: pointer;
   gap: 18px;
 }
 
@@ -998,12 +1000,12 @@ body {
   height: 162px;
   margin-left: 54.39px;
   margin-top: 28.8px;
-  transition: transform 2s;
+  cursor: pointer;
+  transition: transform 1s;
 }
 
 .creamed__img:hover {
-  opacity: 0.75;
-  transform: translateY(-10%);
+  transform: translateY(-20px);
 }
 
 .creamed__title {
@@ -1012,6 +1014,7 @@ body {
   font-weight: 700;
   margin-top: 30px;
   margin-bottom: -15px;
+  cursor: pointer;
   text-transform: uppercase;
   transition: color 0.3s ease-in-out;
   color: #000;
@@ -1026,6 +1029,7 @@ body {
 }
 
 .creamed__text {
+  cursor: pointer;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;

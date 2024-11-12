@@ -28,8 +28,8 @@ function showSlide(n) {
         dots[i].classList.remove('active');
     }
 
-    slides[slideIndex - 1].style.display = "block";  //отображение текушего слайдера
-    slides[slideIndex - 1].classList.add('fade');   //наложение hover на точку
+    slides[slideIndex - 1].style.display = "block"; 
+    slides[slideIndex - 1].classList.add('fade');  
     dots[slideIndex - 1].classList.add('active');
 
 }
