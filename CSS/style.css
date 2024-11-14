@@ -23,18 +23,19 @@ body {
 }
 
 .loader {
-  width: 75px;
-  height: 75px;
+  border: 16px solid #ffffff;
   border-radius: 50%;
-  border: 10px solid rgb(255, 247, 0);
-  border-left-color: #d3d313;
-  animation: loader 1.3s linear infinite;
+  border-top: 16px solid rgb(236, 219, 34);
+  border-bottom: 16px solid rgb(236, 219, 34);
+  width: 180px;
+  height: 180px;
+  animation: loader 2s linear infinite;
+
 }
 
 @keyframes loader {
-  100% {
-    transform: rotate(360deg);
-  }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .header__logo-pic {
