@@ -1126,3 +1126,41 @@ body {
 }
 
 /* FOOTER END */
+
+
+
+@media (max-width: 480px) {
+  .honey__spoon {
+    grid-column: 1fr;
+    margin-bottom: 30px;
+  }
+
+  .flower__second {
+    position: absolute;
+    right: 0;
+  }
+
+  .main__title {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 300px) {
+  .header {
+    display: block;
+  }
+
+  .flower__second {
+    position: relative;
+    margin: 600px 0px 0px 0px;
+    padding: 15px 50px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .jar__box {
+    flex-direction: column;
+  }
+}
